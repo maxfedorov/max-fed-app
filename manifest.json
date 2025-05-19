@@ -1,0 +1,22 @@
+{
+  "name": "max-fed-app",
+  "title": "Max Fed App",
+  "description": "Max is testing this app",
+  "$schema": "https://json.schemastore.org/youtrack-app.json",
+  "vendor": {
+    "name": "maxfed",
+    "url": "https://github.com/maxfedorov"
+  },
+  "icon": "icon.svg",
+  "widgets": [
+
+    {
+      "key": "mf",
+      "name": "mf",
+      "indexPath": "mf/index.html",
+      "extensionPoint": "ISSUE_BELOW_SUMMARY",
+      "iconPath": "mf/widget-icon.svg",
+      "description": "max is testing this widget"
+    }
+  ]
+}
